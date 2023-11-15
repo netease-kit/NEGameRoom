@@ -1,0 +1,42 @@
+// Copyright (c) 2022 NetEase, Inc. All rights reserved.
+// Use of this source code is governed by a MIT license that can be
+// found in the LICENSE file.
+
+"参与游戏" = "Join";
+"退出" = "Leave";
+"人数已满" = "Full";
+"选择游戏" = "Select Game";
+"选择你想玩的游戏" = "Select a game you want to play";
+"关闭" = "Close";
+"开始游戏" = "Start";
+"获取游戏列表失败" = "Failed to retrieve the games";
+"确定" = "OK";
+"上麦后才能加入游戏，是否确认\n申请上麦" = "You can join the game by enabling voice chat. \n Enable voice chat?";
+"提示" = "Tip";
+"取消" = "Cancel";
+"创建游戏失败,请稍后再试" = "Failed to create the game, try again later";
+"加载游戏失败,请稍后再试" = "Failed to load the game, try again later";
+"游戏房" = "Gaming Room";
+"直播列表为空" = "The list of live streams is empty";
+"请求直播列表错误" = "An error occurred while requesting the list of live streams";
+"下拉更新" = "Swipe to refresh";
+"更新中.." = "Updating...";
+"无更多内容" = "No more content";
+"创建房间" = "Create Room";
+"网络异常，请稍后重试" = "You are disconnected, try again later";
+"加入房间失败，请重试！" = "Failed to join the room";
+"人" = "people";
+"是否确定退出当前游戏" = "Leave the game?";
+"参与游戏失败，请稍后再试" = "Failed to join the game, try again later";
+"退出游戏失败，请稍后再试" = "Failed to leave the game, try again later";
+"开始游戏失败，请稍后再试" = "Failed to retrieve the game room";
+"获取房间游戏信息失败" = "Failed to retrieve the game information";
+
+"当前正在游戏中，下麦后将退出游戏，是否确认下麦？" = "Leaving the voice chat will also remove you from the game. Exit the chat?";
+"当前正在游戏中，踢麦后用户将退出游戏，是否确认踢麦？" = "If you kick the participant, the participant will be removed from the game. Proceed?";
+"当前正在游戏中，关麦后用户将退出游戏，是否确认关麦？" = "If you disable the seat, the participant will be removed from the game. Proceed?";
+"当前正在游戏中，是否确认离开房间？" = "You're playing the game. Do you want to leave this room?";
+
+"是否退出当前房间进入其他房间" = "Exit the current room and join another room";
+"是否退出当前房间，并创建新房间" = "Exit the current room and create a new room";
+"参与人数不足，无法开始游戏" = "Game cannot start without sufficient participants";
