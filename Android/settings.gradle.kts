@@ -32,11 +32,11 @@ dependencyResolutionManagement {
 }
 
 include(":app")
-include(":voiceroomkit:voiceroomkit")
-include(":voiceroomkit:voiceroomkit-ui-base")
-include(":voiceroomkit:gamekit:gamekit")
-include(":voiceroomkit:gamekit:SudMGPWrapper")
-include(":voiceroomkit:game-ui")
-include(":entertainment:entertainment-common")
-include(":ordersong:ordersong")
+include(":voiceroomkit")
+include(":voiceroomkit-ui-base")
+include(":gamekit:gamekit")
+include(":gamekit:SudMGPWrapper")
+include(":game-ui")
+include(":entertainment-common")
+include(":ordersong")
 

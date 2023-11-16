@@ -28,7 +28,7 @@ dependencies {
     implementation("com.netease.yunxin.kit.common:common:1.3.1")
     implementation("com.netease.yunxin.kit.common:common-network:1.1.8")
     api("com.netease.yunxin.kit.room:roomkit:1.22.1")
-    api(project(":voiceroomkit:gamekit:SudMGPWrapper"))
+    api(project(":gamekit:SudMGPWrapper"))
     implementation("com.netease.yunxin.kit:alog:1.1.0")
     implementation("com.netease.yunxin.kit.core:corekit:1.4.2")
 }
