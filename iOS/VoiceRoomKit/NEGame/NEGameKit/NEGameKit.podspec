@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.source = {"git"=> "https://github.com/netease-kit/"}
   s.source_files = 'NEGameKit/Classes/**/*'
   s.dependency 'NERoomKit/Base_Special'
-  s.dependency 'SudMGPWrapper'
+  s.dependency 'SudMGPWrapper', '1.3.5'
   s.pod_target_xcconfig = {"EXCLUDED_ARCHS[sdk=iphonesimulator*]"=> "arm64", "BUILD_LIBRARY_FOR_DISTRIBUTION"=> "YES", "APPLICATION_EXTENSION_API_ONLY"=> "NO"}
   s.swift_version = '5.0'
 end
