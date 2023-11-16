@@ -8,6 +8,7 @@ Pod::Spec.new do |s|
   s.platforms = {"ios"=> "11.0"}
   s.source = {"git"=> "https://github.com/netease-kit/"}
   s.source_files = 'NEUIKit/Classes/**/*'
+  s.resource = 'NEUIKit/Assets/**/*'
   s.pod_target_xcconfig = {"EXCLUDED_ARCHS[sdk=iphonesimulator*]"=> "arm64", "BUILD_LIBRARY_FOR_DISTRIBUTION"=> "YES", "APPLICATION_EXTENSION_API_ONLY"=> "NO"}
   s.dependency 'Masonry'
 end
