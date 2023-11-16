@@ -73,9 +73,7 @@
 		5EE29FAF29B07B47008EF538 /* NPTPersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPTPersonViewController.swift; sourceTree = "<group>"; };
 		5EE29FB429B0A524008EF538 /* NPTNormalSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPTNormalSettingViewController.swift; sourceTree = "<group>"; };
 		5EE29FB629B0AA74008EF538 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
-		82276D255B993A4C9566E58C /* Pods-NEGameSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NEGameSample.debug.xcconfig"; path = "Target Support Files/Pods-NEGameSample/Pods-NEGameSample.debug.xcconfig"; sourceTree = "<group>"; };
 		DF0953B18064C7A2CF843CAF /* Pods_NEGameSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NEGameSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E069689C0C6FB810219FE19C /* Pods-NEGameSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NEGameSample.release.xcconfig"; path = "Target Support Files/Pods-NEGameSample/Pods-NEGameSample.release.xcconfig"; sourceTree = "<group>"; };
 		EDC02B452B04BA93004A69A7 /* gameRoom.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = gameRoom.json; sourceTree = "<group>"; };
 		EDCBACA12A6E207600589F75 /* AppKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppKey.swift; sourceTree = "<group>"; };
 		EDCBACA32A6E4D1B00589F75 /* Configs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configs.swift; sourceTree = "<group>"; };
@@ -100,15 +98,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B566A116882FAB65AB7E668 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				82276D255B993A4C9566E58C /* Pods-NEGameSample.debug.xcconfig */,
-				E069689C0C6FB810219FE19C /* Pods-NEGameSample.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		5E6E71AE29C198D000DB7A67 /* NEGameSampleUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,7 +114,6 @@
 				5E6E71AE29C198D000DB7A67 /* NEGameSampleUITests */,
 				5E73C2C129AE01AF00868D97 /* Products */,
 				FCC5B1B0125DEEC4B233B2BA /* Frameworks */,
-				0B566A116882FAB65AB7E668 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -610,7 +598,6 @@
 		};
 		5E73C2D529AE01B200868D97 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82276D255B993A4C9566E58C /* Pods-NEGameSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -659,7 +646,6 @@
 		};
 		5E73C2D629AE01B200868D97 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E069689C0C6FB810219FE19C /* Pods-NEGameSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

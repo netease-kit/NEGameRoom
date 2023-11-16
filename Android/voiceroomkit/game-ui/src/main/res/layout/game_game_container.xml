@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:id="@+id/cl_root"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/game_bg_game_container"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!--    <FrameLayout-->
+<!--        android:layout_marginTop="35dp"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        tools:background="@android:color/holo_green_light"-->
+<!--        android:id="@+id/game_container"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent" />-->
+
+    <com.netease.yunxin.app.chatroom.game.ui.widget.GameRuleView
+        android:layout_marginTop="35dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:background="@drawable/game_bg_rule"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        tools:background="@android:color/holo_red_dark"
+        android:id="@+id/game_rule_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.netease.yunxin.app.chatroom.game.ui.widget.GameCustomButtons
+        android:layout_marginTop="35dp"
+        android:id="@+id/game_custom_buttons"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="28dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+    <TextView
+        android:text="@string/game_draw_something"
+        android:id="@+id/tv_game_title"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="12dp"
+        android:paddingRight="6dp"
+        android:layout_marginTop="8dp"
+        android:textSize="12sp"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:visibility="gone"
+        android:background="@drawable/game_tips_icon"
+        app:layout_constraintTop_toTopOf="@+id/tv_game_title"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_game_title"
+        app:layout_constraintLeft_toRightOf="@+id/tv_game_title"
+        android:id="@+id/iv_game_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:background="@drawable/game_bg_game_close"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/tv_game_close"
+        android:textColor="#B9C5D8"
+        android:textSize="12sp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="2dp"
+        android:paddingTop="2dp"
+        android:text="@string/game_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="base_adapter_model_tag" type="id" />
+    <item name="base_adapter_position_tag" type="id" />
+    <item name="seat_list_view" type="id" />
+    <item name="game_preparing_view" type="id" />
+
+</resources>

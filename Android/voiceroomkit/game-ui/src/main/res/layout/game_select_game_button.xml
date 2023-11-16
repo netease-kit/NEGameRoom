@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="130dp"
+    android:background="@drawable/bg_select_game_button"
+    android:orientation="horizontal"
+    android:layout_height="40dp">
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_marginLeft="24dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/game_select_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_gravity="center_vertical"
+        android:textColor="@android:color/white"
+        android:text="@string/game_select_game_text"
+        android:layout_marginLeft="10dp"
+        android:textSize="14sp"
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

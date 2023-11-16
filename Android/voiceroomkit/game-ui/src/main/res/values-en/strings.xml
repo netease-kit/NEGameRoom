@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_yes">Yes</string>
+    <string name="app_no">No</string>
+    <string name="app_privacy_policy">Privacy Policy</string>
+    <string name="app_user_agreement">Terms of Service</string>
+    <string name="app_ok">Complete</string>
+    <string name="app_application">Application</string>
+    <string name="app_room_list_empty">No room\nClick ”+“ to create a room</string>
+    <string name="app_sure">Sure</string>
+    <string name="app_cancel">Cancel</string>
+    <string name="sure">OK</string>
+    <string name="app_game_room">Gaming room</string>
+    <string name="app_game_room_desc">With AI-enabled noise reduction, you\'ll experience enhanced sound quality without the mic screeching.</string>
+    <string name="app_kick_out">This account is already logged in on another device. You are logged out of the device</string>
+    <string name="app_account">Please fill in account</string>
+    <string name="app_token">Please fill in token</string>
+    <string name="game_select_your_game">Select the game you want</string>
+    <string name="game_select_game_text">Select game</string>
+    <string name="game_draw_something">Draw Something</string>
+    <string name="game_close">Close</string>
+    <string name="game_confirm_exit_game_content">Leave the game?</string>
+    <string name="game_start_game_text">Start</string>
+    <string name="game_join_game_text">Join</string>
+    <string name="game_leave_game_text">Leave</string>
+    <string name="game_room">Gaming room</string>
+    <string name="game_confirm_submit_seat_request">You can join the game by enabling voice chat. \n Enable voice chat?</string>
+    <string name="game_preparing_status">Ready</string>
+    <string name="game_playing_status">Playing</string>
+    <string name="game_join_game_failed">Failed to join the game, try again later</string>
+    <string name="game_leave_game_failed">Failed to leave the game, try again later</string>
+    <string name="game_start_game_failed">Failed to retrieve the game room</string>
+    <string name="game_get_room_game_info_failed">Failed to retrieve the game information</string>
+    <string name="game_leave_seat_confirm">Leaving the voice chat will also remove you from the game. Exit the chat?</string>
+    <string name="game_kick_seat_confirm">If you kick the participant, the participant will be removed from the game. Proceed?</string>
+    <string name="game_close_seat_confirm">If you disable the seat, the participant will be removed from the game. Proceed?</string>
+    <string name="game_people_insufficient">Game cannot start without sufficient participants</string>
+</resources>
