@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">云信游戏房</string>
+    <string name="app_about">关于</string>
+    <string name="app_app_version">App版本</string>
+    <string name="app_privacy_policy">隐私政策</string>
+    <string name="app_user_agreement">用户协议</string>
+    <string name="app_disclaimer">免责声明</string>
+    <string name="app_logout">退出登录</string>
+    <string name="app_user_center">个人中心</string>
+    <string name="app_application">应用</string>
+    <string name="app_common_setting">通用设置</string>
+    <string name="sample_login_desc">云信派对-游戏房业务\n源码跑通示例</string>
+    <string name="start_exploring">开始体验</string>
+    <string name="logining">登录中...</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_yes">是</string>
+    <string name="app_no">否</string>
+    <string name="app_ok">完成</string>
+    <string name="app_application">应用</string>
+    <string name="app_room_list_empty">暂时没有房间\n请点击下方\"+\"号创建房间</string>
+    <string name="app_sure">确定</string>
+    <string name="app_cancel">取消</string>
+    <string name="sure">确定</string>
+    <string name="app_game_room">游戏房</string>
+    <string name="app_game_room_desc">实时互动，嗨玩不停</string>
+    <string name="app_kick_out">您的账号已在另一台设备登录，已退出此设备</string>
+    <string name="app_account">请填写account</string>
+    <string name="app_token">请填写token</string>
+    <string name="game_select_your_game">选择你想玩的游戏</string>
+    <string name="game_select_game_text">选择游戏</string>
+    <string name="game_draw_something">你画我猜</string>
+    <string name="game_close">关闭</string>
+    <string name="game_confirm_exit_game_content">是否确认退出当前游戏</string>
+    <string name="game_start_game_text">开始游戏</string>
+    <string name="game_join_game_text">参与游戏</string>
+    <string name="game_leave_game_text">退出</string>
+    <string name="game_room">游戏房</string>
+    <string name="game_confirm_submit_seat_request">上麦后才能加入游戏，是否确认申请上麦?</string>
+    <string name="game_preparing_status">已准备</string>
+    <string name="game_playing_status">游戏中</string>
+    <string name="game_join_game_failed">参与游戏失败，请稍后再试</string>
+    <string name="game_leave_game_failed">退出游戏失败，请稍后再试</string>
+    <string name="game_start_game_failed">开始游戏失败，请稍后再试</string>
+    <string name="game_get_room_game_info_failed">获取房间游戏信息失败</string>
+    <string name="game_leave_seat_confirm">当前正在游戏中，下麦后将退出游戏，是否确认下麦？</string>
+    <string name="game_kick_seat_confirm">当前正在游戏中，踢麦后用户将退出游戏，是否确认踢麦？</string>
+    <string name="game_close_seat_confirm">当前正在游戏中，关麦后用户将退出游戏，是否确认关麦？</string>
+    <string name="game_people_insufficient">参与人数不足，无法开始游戏</string>
+</resources>

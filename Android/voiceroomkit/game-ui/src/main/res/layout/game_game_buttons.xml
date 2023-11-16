@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:layout_marginRight="6dp"
+        android:background="@drawable/game_bg_blue_bttton_join_game"
+        android:id="@+id/btn_anchor_left"
+        android:layout_width="0dp"
+        android:layout_marginLeft="18dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="16sp"
+        tools:text="holder"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/btn_anchor_right"/>
+    <TextView
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="6dp"
+        android:background="@drawable/game_bg_red_bttton_start_game"
+        app:layout_constraintLeft_toRightOf="@+id/btn_anchor_left"
+        app:layout_constraintHorizontal_weight="1"
+        android:id="@+id/btn_anchor_right"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:text="@string/game_start_game_text"
+        android:layout_marginRight="18dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" />
+
+    <TextView
+        tools:visibility="visible"
+        android:visibility="gone"
+        tools:text="holder"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@drawable/game_bg_blue_bttton_join_game"
+        android:id="@+id/btn_audience"
+        android:layout_width="144dp"
+        android:layout_height="match_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

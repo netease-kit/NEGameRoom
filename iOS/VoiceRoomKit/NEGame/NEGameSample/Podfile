@@ -1,0 +1,55 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+# 引入配置文件
+
+target 'NEGameSample' do
+  pod 'IHProgressHUD'
+  pod 'LottieSwift', :path=> '../../../third_party/lottie/LottieSwift.podspec'
+  pod 'Masonry','1.1.0'
+  pod 'NECommonKit','9.6.3-alpha01'
+  pod 'NECommonUIKit','9.6.3-alpha01'
+  pod 'NECoreIMKit','9.6.3-alpha01'
+  pod 'NECoreKit','9.6.4'
+  pod 'NEGameKit', :path=> '../NEGameKit/NEGameKit.podspec'
+  pod 'NEGameUIKit', :path=> '../NEGameUIKit/NEGameUIKit.podspec'
+  pod 'NELoginSample', :path=> '../../../OneOnOne/NELoginSample/NELoginSample.podspec'
+  pod 'NERoomKit/Special_All','1.22.0'
+  pod 'NERtcSDK_Special/RtcBasic','5.5.203'
+  pod 'NESocialUIKit', :path=> '../../../Party/NESocialUIKit/NESocialUIKit.podspec'
+  pod 'NEUIKit', :path=> '../../../UIKit/NEUIKit/NEUIKit.podspec'
+  pod 'NEVoiceRoomBaseUIKit', :path=> '../../NEVoiceRoomBaseUIKit/NEVoiceRoomBaseUIKit.podspec'
+  pod 'NEVoiceRoomKit', :path=> '../../NEVoiceRoomKit/NEVoiceRoomKit.podspec'
+  pod 'NIMSDK_LITE','9.12.0'
+  pod 'SDWebImage','5.15.4'
+# Comment the next line if you don't want to use dynamic frameworks
+use_frameworks!
+
+# 工程的podspec引用采用源码的环境变量
+ENV['USE_SOURCE_FILES'] = 'true'
+
+
+
+#源码依赖
+
+
+#登录
+
+
+
+#远端依赖
+#GitPushStart
+#GitPushEnd
+
+
+
+
+end
+
+post_install do |installer|
+installer.pods_project.targets.each do |target|
+target.build_configurations.each do |config|
+config.build_settings['ENABLE_BITCODE'] = 'NO'
+end
+end
+end
