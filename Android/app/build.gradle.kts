@@ -42,14 +42,14 @@ dependencies {
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
 //    implementation("com.netease.yunxin.kit.copyrightedmedia:copyrightedmedia:1.7.0")
     implementation("com.netease.yunxin.kit.room:roomkit:1.22.1")
-    api(project(":voiceroomkit:voiceroomkit"))
+    api(project(":voiceroomkit"))
 
     // jetpack dependencies
     implementation("androidx.appcompat:appcompat:1.4.2")
 
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
 
-    api(project(":voiceroomkit:game-ui"))
-    api(project(":voiceroomkit:gamekit:gamekit"))
+    api(project(":game-ui"))
+    api(project(":gamekit:gamekit"))
 
 }

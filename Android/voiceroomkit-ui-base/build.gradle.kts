@@ -33,9 +33,9 @@ dependencies {
     api("com.netease.yunxin.kit.common:common-ui:1.3.1")
     api("com.netease.yunxin.kit.common:common-network:1.1.8")
     api("com.netease.yunxin.kit.common:common-image:1.1.7")
-    api(project(":voiceroomkit:voiceroomkit"))
+    api(project(":voiceroomkit"))
     api("com.netease.yunxin.kit.copyrightedmedia:copyrightedmedia:1.7.0")
-    api(project(":ordersong:ordersong"))
-    api(project(":entertainment:entertainment-common"))
+    api(project(":ordersong"))
+    api(project(":entertainment-common"))
 
 }
