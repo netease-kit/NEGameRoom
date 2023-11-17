@@ -21,18 +21,14 @@
 
 ## 运行示例项目
 
-::: note notice
-- 游戏房的示例源码仅供开发者接入参考，实际应用开发场景中，请结合具体业务需求修改使用。
+> - 游戏房的示例源码仅供开发者接入参考，实际应用开发场景中，请结合具体业务需求修改使用。
+> - 若您计划将源码用于生产环境，请确保应用正式上线前已经过全面测试，以免因兼容性等问题造成损失。
 
-- 若您计划将源码用于生产环境，请确保应用正式上线前已经过全面测试，以免因兼容性等问题造成损失。
-
-:::
 
   
 1. 克隆[游戏房示例项目源码](https://github.com/netease-kit/NEGameRoom/tree/master/iOS)仓库至您本地工程。
-    ::: note note
-    示例项目源码请存放至全英文的路径下。
-    :::
+
+>  示例项目源码请存放至全英文的路径下。
 
 2. 打开终端，在 (VoiceRoomKit/NEGame/NEGameSample) Podfile 所在文件夹中执行如下命令进行安装：
 
@@ -57,12 +53,9 @@
 
     ```
 
-
-    ::: note note
-    - 获取 AppKey 和 AppSecret 的方法请参见<a href="https://doc.yunxin.163.com/console/docs/TIzMDE4NTA?platform=console#获取-appkey" target="_blank">创建应用并获取 AppKey</a>。
-    - 配置文件中的 BASE_URL 地址 `http://yiyong.netease.im`为云信派对服务端体验地址，该地址仅用于体验 Demo，请勿用于生产环境。 您可以使用云信派对 Demo 体验 1 小时音视频通话。
-    - 如果您的应用的 AppKey 为海外，`IS_OVERSEA` 的值请设置为 `ture`。
-    :::
+> - 获取 AppKey 和 AppSecret 的方法请参见<a href="https://doc.yunxin.163.com/console/docs/TIzMDE4NTA?platform=console#获取-appkey" target="_blank">创建应用并获取 AppKey</a>。
+> - 配置文件中的 BASE_URL 地址 `http://yiyong.netease.im`为云信派对服务端体验地址，该地址仅用于体验 Demo，请勿用于生产环境。 您可以使用云信派对 Demo 体验 1 小时音视频通话。
+> - 如果您的应用的 AppKey 为海外，`IS_OVERSEA` 的值请设置为 `ture`。
 
 
   
