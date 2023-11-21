@@ -16,6 +16,7 @@
 - [已创建应用并获取AppKey](https://doc.yunxin.163.com/console/docs/TIzMDE4NTA?platform=console)
 - [已开通相关能力](https://doc.yunxin.163.com/docs/TA3ODAzNjE/zQ4MTI0Njc?platformId=50616)
 - 已配置 NERoom 的消息抄送地址（http://yiyong.netease.im/nemo/entertainmentLive/nim/notify），具体请联系网易云信技术支持
+- 已联系云信商务人员开通小游戏服务
 
 
 
@@ -55,7 +56,7 @@
 
 > - 获取 AppKey 和 AppSecret 的方法请参见<a href="https://doc.yunxin.163.com/console/docs/TIzMDE4NTA?platform=console#获取-appkey" target="_blank">创建应用并获取 AppKey</a>。
 > - 配置文件中的 BASE_URL 地址 `http://yiyong.netease.im`为云信派对服务端体验地址，该地址仅用于体验 Demo，请勿用于生产环境。 您可以使用云信派对 Demo 体验 1 小时音视频通话。
-> - 如果您的应用的 AppKey 为海外，`IS_OVERSEA` 的值请设置为 `ture`。
+> - 如果您的应用的 AppKey 为海外，`IS_OVERSEA` 的值请设置为 `true`。
 
 
   
