@@ -31,7 +31,7 @@ Android
 - [已配置 NERoom 的消息抄送地址（http://yiyong.netease.im/nemo/entertainmentLive/nim/notify）](https://doc.yunxin.163.com/docs/zU3Mjk0MTk/zYxNzIzMTE?platformId=121094)
 
     ![neroom消息抄送地址.png](https://yx-web-nosdn.netease.im/common/8cd222db079b0bbe16b3b246be350268/neroom消息抄送地址.png)
-
+- 已联系云信技术支持开通小游戏服务
 # 运行示例项目
 
 > **注意**：
