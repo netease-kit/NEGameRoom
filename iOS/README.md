@@ -67,7 +67,7 @@
 > **注意**：
 
 >- 获取 AppKey 和 AppSecret 的方法请参见<a href="https://doc.yunxin.163.com/console/docs/TIzMDE4NTA?platform=console#获取-appkey" target="_blank">创建应用并获取 AppKey</a>。
->- BASE_URL 地址 `https://yiyong.netease.im`和BASE_URL_OVERSEA 地址 `https://yiyong-sg.netease.im`为云信派对服务端体验地址，该地址仅用于体验 Demo，单次最大体验时长为1小时，**请勿用于生产环境**。
+>- 配置文件中的 BASE_URL 地址 `https://yiyong.netease.im`和BASE_URL_OVERSEA 地址 `https://yiyong-sg.netease.im`为云信派对服务端体验地址，该地址仅用于体验 Demo，单次最大体验时长为1小时，**请勿用于生产环境**。
 >- 如果您的应用的 AppKey 为海外，`IS_OVERSEA` 的值请设置为 `ture`。
 
 
